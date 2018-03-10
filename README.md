@@ -1,8 +1,12 @@
-## Mango Music
+## one-webapp
 
-This is a music webapp. Build width [Create React App](https://github.com/facebookincubator/create-react-app).
+>React高仿《one·一个》app
+## 主要依赖 ##
 
-Online preview address: https://code-mcx.github.io/mango-music.
+ 1. 基于react最新版
+ 2. 使用stylus编写样式
+ 3. 使用eslint进行js代码的规范
+This is a one app. Build width [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ### Instruction
 This is the first chapter of the code
