@@ -4,7 +4,7 @@ import Header from '../header/header';
 import Loading from '../../container/loading/Loading'
 import './home.styl';
 import {get} from '../../fetch/get';
-import {url,OPTIONS} from '../../fetch/config';
+import {HOMEURL,OPTIONS} from '../../fetch/config';
 class HomePage extends React.Component{
   constructor(props){
     super(props)
@@ -49,8 +49,7 @@ class HomePage extends React.Component{
     }
   }
   componentDidMount(){
-    get(url,OPTIONS).then(res =>{
-      
+    get(HOMEURL,OPTIONS).then(res =>{
       if(res.res === 0){
         this.setState({
           homeList:res.data,

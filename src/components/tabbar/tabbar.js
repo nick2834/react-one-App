@@ -23,6 +23,11 @@ class Tabbar extends React.Component{
                   <i className="iconfont icon-music"></i>
                 </NavLink>
             </div>
+            <div className="tab-item">
+                <NavLink to="/movies" className="nav-link">
+                  <i className="iconfont icon-icon-test"></i>
+                </NavLink>
+            </div>
         </div>
       </div>
     )

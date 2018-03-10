@@ -18,7 +18,23 @@
     width: 100%
     top: 50%
     transform: translateY(-50%)
-    
+.clearfix
+  zoom: 1
+  &:after
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+.one-img-container
+  img 
+    width:100%
+.and
+  display: block
+  padding-left: 20px
+  color: #6b6a6a
+  padding-bottom: 10px
 
 
     
