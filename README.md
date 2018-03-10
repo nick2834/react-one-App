@@ -7,6 +7,9 @@
  2. 使用stylus编写样式
  3. 使用eslint进行js代码的规范
 
+#### 预览
+![GIF预览](http://p0mejgdza.bkt.clouddn.com//git/5ba70b20-f734-4bd6-9ef5-002ac3b572ab.gif)
+
 This is a one app. Build width [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ### Instruction
